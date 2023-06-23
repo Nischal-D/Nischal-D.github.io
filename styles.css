@@ -325,6 +325,7 @@ body{
         display: flex;
         justify-content: center;
         align-content: center;
+        margin-bottom: 150px;
     }
     
     .dev_pic>img{
@@ -334,8 +335,9 @@ body{
         object-fit:cover;
     }
     .buttons{
-        margin: 20px 30px;
+        margin: 20px 0px;
         padding: 30px 0;
+        margin-top: 0;
     }
     .social{
         margin: 10px;
