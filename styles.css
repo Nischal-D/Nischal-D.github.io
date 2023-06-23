@@ -43,8 +43,10 @@ body{
 }
  
 .sidebar>nav>img{
-    height: 8vh ;
-    width: 3vw;
+    height: 10vh ;
+    width: 5vw;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .main{
@@ -131,7 +133,7 @@ body{
 #button{
     display: inline-flex;
     padding: 9px 14px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     background-color: #6e686e;
     font-size: 15px;
@@ -220,7 +222,7 @@ body{
     background-color: #6e686e;
     font-size: 15px;
     cursor: pointer;
-    border: solid black 2px;
+    border: solid black 1px;
     color:  #d1d7e0;    
 }
 
@@ -232,7 +234,7 @@ body{
 .social{
     margin-left: 0.9vw;
     position: absolute;
-    bottom: 40px;
+    bottom: 45px;
     width:200px;
     display: flex;
     justify-content: space-between;
@@ -248,7 +250,7 @@ body{
     background: transparent;
     border: 2px solid #6e686e;
     border-radius: 50%;
-    font-size: 25px;
+    font-size:28px;
     text-decoration: none;
 }
 
