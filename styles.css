@@ -288,11 +288,14 @@ body{
         justify-content: space-evenly;
     }
     nav>li>a{
-        margin: auto;
-        padding: 5px 15px;
-        font-size: 15px;
+        margin:-5px;
+        padding: 5px 16.5px;
+        font-size: 17px;
     }
-
+   #contact{
+    padding: 0;
+    padding-left: 17px;
+     }
     .sidebar{
         display: flex;
         flex-direction: row;
@@ -305,8 +308,8 @@ body{
         width: 50px;
         border-radius: 50%;
         object-fit: cover;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: -25px;
+        margin-right: 5px;
     }
     .main{
         display: flex;
@@ -319,33 +322,61 @@ body{
     }
 
     .imgcontainer{
-        height: 302px;
-        width: 214px;
+        height: 250px;
+        width: 220px;
         /* background-color: aqua; */
         display: flex;
         justify-content: center;
         align-content: center;
         margin-bottom: 40px;
+        margin-top: 30px;
      }
     
     .dev_pic>img{
-        height: 200px ;
-        width: 200px;
+        height: 220px ;
+        width: 220px;
         border-radius: 50%;
         object-fit:cover;
     }
+
+   .info_container{
+    height: 60vh;
+    width: 75vw;
+    margin: 8vh 2vw;
+    display: flex ;
+    justify-content:space-between;
+         }
+
     .buttons{
-        margin: 60px 0px;
+        margin: 50px 0px;
         padding: 30px 0;
-        margin-top: 0;
+        margin-top: -30px;
     }
     .social{
         margin: 0px;
+        
+
     }
 
-    .sidebar>.nav{
-        padding: 10px;
+    .box{
+        margin-top: 10px;
+        padding-top: 7px;
+        width: 250px;
+        border-radius: 8px;
+        font-size: 15px;
+        text-indent: 3px;
     }
 
+    .contact_form>h1{
+        font-family: 'Fira Sans', sans-serif; 
+        font-size: 39px;
+    }
+
+    #isclient{
+        width:13px;
+        margin-right: 5px;
+        margin-left: 1px;
+        margin-top: -21px;
+    }
 }
     
